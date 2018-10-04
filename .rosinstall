@@ -17,8 +17,8 @@
 - git: {local-name: functionalities/ED/ed_navigation, uri: 'https://github.com/ropod-project/ed_navigation.git', version: merge-test}
 - git: {local-name: functionalities/ED/ed_object_models, uri: 'https://github.com/ropod-project/ed_object_models.git', version: merge-test}
 - git: {local-name: functionalities/ED/ed_perception, uri: 'https://github.com/ropod-project/ed_perception.git', version: ropod-master}
-- git: {local-name: functionalities/ED/ed_perception_models, uri: 'https://github.com/ropod-project/ed_perception_models.git', version: merge-test}
-- git: {local-name: functionalities/ED/ed_rviz_plugins, uri: 'https://github.com/ropod-project/ed_rviz_plugins.git', version: ropod-master}
+- git: {local-name: functionalities/ED/ed_perception_models, uri: 'https://github.com/ropod-project/ed_perception_models.git', version: ropod-master}
+- git: {local-name: functionalities/ED/ed_rviz_plugins, uri: 'https://github.com/ropod-project/ed_rviz_plugins.git', version: merge-test}
 - git: {local-name: functionalities/ED/ed_sensor_integration, uri: 'https://github.com/ropod-project/ed_sensor_integration.git', version: merge-test}
 - git: {local-name: functionalities/ED/ed_tutorials, uri: 'https://github.com/ropod-project/ed_tutorials.git', version: ropod-master}
 ## other tue needed repos
@@ -26,10 +26,11 @@
 - git: {local-name: functionalities/code_profiler, uri: 'https://github.com/ropod-project/code_profiler.git', version: ropod-master}
 - git: {local-name: functionalities/geolib2, uri: 'https://github.com/ropod-project/geolib2.git', version: ropod-master}
 - git: {local-name: functionalities/image_recognition, uri: 'https://github.com/ropod-project/image_recognition.git', version: ropod-master}
-- git: {local-name: functionalities/rgbd, uri: 'https://github.com/ropod-project/rgbd.git', version: ropod-master}
+- git: {local-name: functionalities/rgbd, uri: 'https://github.com/ropod-project/rgbd.git', version: feature/freenect}
 - git: {local-name: functionalities/tue_config, uri: 'https://github.com/ropod-project/tue_config.git', version: ropod-master}
 - git: {local-name: functionalities/tue_filesystem, uri: 'https://github.com/ropod-project/tue_filesystem.git', version: ropod-master}
 - git: {local-name: functionalities/tue_serialization, uri: 'https://github.com/ropod-project/tue_serialization.git', version: ropod-master}
+- git: {local-name: functionalities/problib, uri: 'https://github.com/ropod-project/problib.git', version: ropod-master}
 ## ROPOD comm repos
 - git: {local-name: functionalities/ropod_comm/ropod_com_mediator, uri: 'git@git.ropod.org:ropod/communication/ropod_com_mediator.git', version: master}
 - git: {local-name: functionalities/ropod_comm/ropod_ros_msgs, uri: 'git@git.ropod.org:ropod/communication/ropod_ros_msgs.git', version: master}
