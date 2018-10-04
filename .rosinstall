@@ -10,15 +10,15 @@
 # Functionalities repos
 
 ## ED
-- git: {local-name: functionalities/ED/ed, uri: 'https://github.com/ropod-project/ed.git', version: merge-test}
-- git: {local-name: functionalities/ED/ed_gui_server, uri: 'https://github.com/ropod-project/ed_gui_server.git', version: merge-test}
+- git: {local-name: functionalities/ED/ed, uri: 'https://github.com/ropod-project/ed.git', version: ropod-master}
+- git: {local-name: functionalities/ED/ed_gui_server, uri: 'https://github.com/ropod-project/ed_gui_server.git', version: ropod-master}
 - git: {local-name: functionalities/ED/ed_localization, uri: 'https://github.com/ropod-project/ed_localization.git', version: ropod-master}
-- git: {local-name: functionalities/ED/ed_navigation, uri: 'https://github.com/ropod-project/ed_navigation.git', version: merge-test}
-- git: {local-name: functionalities/ED/ed_object_models, uri: 'https://github.com/ropod-project/ed_object_models.git', version: merge-test}
+- git: {local-name: functionalities/ED/ed_navigation, uri: 'https://github.com/ropod-project/ed_navigation.git', version: ropod-master}
+- git: {local-name: functionalities/ED/ed_object_models, uri: 'https://github.com/ropod-project/ed_object_models.git', version: ropod-master}
 - git: {local-name: functionalities/ED/ed_perception, uri: 'https://github.com/ropod-project/ed_perception.git', version: ropod-master}
 - git: {local-name: functionalities/ED/ed_perception_models, uri: 'https://github.com/ropod-project/ed_perception_models.git', version: ropod-master}
-- git: {local-name: functionalities/ED/ed_rviz_plugins, uri: 'https://github.com/ropod-project/ed_rviz_plugins.git', version: merge-test}
-- git: {local-name: functionalities/ED/ed_sensor_integration, uri: 'https://github.com/ropod-project/ed_sensor_integration.git', version: merge-test}
+- git: {local-name: functionalities/ED/ed_rviz_plugins, uri: 'https://github.com/ropod-project/ed_rviz_plugins.git', version: ropod-master}
+- git: {local-name: functionalities/ED/ed_sensor_integration, uri: 'https://github.com/ropod-project/ed_sensor_integration.git', version: ropod-master}
 - git: {local-name: functionalities/ED/ed_tutorials, uri: 'https://github.com/ropod-project/ed_tutorials.git', version: ropod-master}
 ## other tue needed repos
 - git: {local-name: functionalities/cb_planner_msgs_srvs, uri: 'https://github.com/ropod-project/cb_planner_msgs_srvs.git', version: ropod-master}
