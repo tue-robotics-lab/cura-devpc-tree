@@ -1,6 +1,8 @@
+#!/bin/bash
 cd ~
 mkdir -p ropod-project-software/catkin_workspace/src
 cd ropod-project-software/catkin_workspace/src
 git clone https://github.com/ropod-project/tree-devpc.git ./
 wstool init
 wstool up
+echo "source ~/ropod-project-software/catkin_workspace/src/platform/setup/setup.bash"  >> ~/.bashrc
