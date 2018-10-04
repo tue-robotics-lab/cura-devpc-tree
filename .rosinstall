@@ -7,7 +7,6 @@
 - git: {local-name: applications/miscellaneous, uri: 'https://github.com/ropod-project/miscellaneous.git', version: master}
 - git: {local-name: applications/occupancy_grids, uri: 'git@git.ropod.org:ropod/wm/occupancy_grids.git', version: master}
 
-
 # Functionalities repos
 
 ## ED
@@ -32,14 +31,16 @@
 - git: {local-name: functionalities/tue_serialization, uri: 'https://github.com/ropod-project/tue_serialization.git', version: ropod-master}
 - git: {local-name: functionalities/problib, uri: 'https://github.com/ropod-project/problib.git', version: ropod-master}
 ## ROPOD comm repos
-- git: {local-name: functionalities/ropod_comm/ropod_com_mediator, uri: 'git@git.ropod.org:ropod/communication/ropod_com_mediator.git', version: master}
-- git: {local-name: functionalities/ropod_comm/ropod_ros_msgs, uri: 'git@git.ropod.org:ropod/communication/ropod_ros_msgs.git', version: master}
-- git: {local-name: functionalities/ropod_comm/ropod_wm_mediator, uri: 'git@git.ropod.org:ropod/wm/ropod_wm_mediator.git', version: master}
-- git: {local-name: functionalities/ropod_comm/ropod_task_executor, uri: 'git@git.ropod.org:ropod/ropod_task_executor.git', version: master}
+- git: {local-name: functionalities/ropod_comm/ropod_com_mediator, uri: 'git@git.ropod.org:ropod/communication/ropod_com_mediator.git', version: develop}
+- git: {local-name: functionalities/ropod_comm/ropod_ros_msgs, uri: 'git@git.ropod.org:ropod/communication/ropod_ros_msgs.git', version: develop}
+- git: {local-name: functionalities/ropod_comm/ropod_wm_mediator, uri: 'git@git.ropod.org:ropod/wm/ropod_wm_mediator.git', version: develop}
+- git: {local-name: functionalities/ropod_comm/ropod_task_executor, uri: 'git@git.ropod.org:ropod/ropod_task_executor.git', version: develop}
 ## ROPOD navigation repos
-- git: {local-name: functionalities/ropod_nav/ropod_navigation, uri: 'git@git.ropod.org:ropod/navigation/ropod_navigation.git', version: master}
+- git: {local-name: functionalities/ropod_nav/ropod_navigation, uri: 'git@git.ropod.org:ropod/navigation/ropod_navigation.git', version: develop}
 - git: {local-name: functionalities/ros_structured_nav/ros_structured_nav, uri: 'https://github.com/tue-ropod/ros-structured-nav.git', version: master}
 
+## git-tooling
+- git: {local-name: functionalities/multi-git-status, uri: 'https://github.com/fboender/multi-git-status.git', version: master}
 
 
 # platform repos
