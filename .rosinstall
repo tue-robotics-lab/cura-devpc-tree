@@ -13,7 +13,7 @@
 - git: {local-name: functionalities/ED/ed, uri: 'https://github.com/ropod-project/ed.git', version: feature/tracking}
 - git: {local-name: functionalities/ED/ed_gui_server, uri: 'https://github.com/ropod-project/ed_gui_server.git', version: feature/tracking}
 - git: {local-name: functionalities/ED/ed_localization, uri: 'https://github.com/ropod-project/ed_localization.git', version: ropod-master}
-- git: {local-name: functionalities/ED/ed_navigation, uri: 'https://github.com/ropod-project/ed_navigation.git', version: merge-test}
+- git: {local-name: functionalities/ED/ed_navigation, uri: 'https://github.com/ropod-project/ed_navigation.git', version: ropod-master}
 - git: {local-name: functionalities/ED/ed_object_models, uri: 'https://github.com/ropod-project/ed_object_models.git', version: feature/tracking}
 - git: {local-name: functionalities/ED/ed_perception, uri: 'https://github.com/ropod-project/ed_perception.git', version: ropod-master}
 - git: {local-name: functionalities/ED/ed_perception_models, uri: 'https://github.com/ropod-project/ed_perception_models.git', version: ropod-master}
