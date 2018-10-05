@@ -37,7 +37,7 @@
 - git: {local-name: functionalities/ropod_comm/ropod_task_executor, uri: 'git@git.ropod.org:ropod/ropod_task_executor.git', version: master}
 ## ROPOD navigation repos
 - git: {local-name: functionalities/ropod_nav/ropod_navigation, uri: 'git@git.ropod.org:ropod/navigation/ropod_navigation.git', version: develop}
-- git: {local-name: functionalities/ros_structured_nav/ros_structured_nav, uri: 'https://github.com/tue-ropod/ros-structured-nav.git', version: master}
+- git: {local-name: functionalities/ros_structured_nav, uri: 'https://github.com/tue-ropod/ros-structured-nav.git', version: master}
 - git: {local-name: functionalities/ros_experimental_nav/teb_local_planner, uri: 'https://github.com/ropod-project/teb_local_planner.git', version: ropod-master}
 ## git-tooling
 - git: {local-name: functionalities/multi-git-status, uri: 'https://github.com/fboender/multi-git-status.git', version: master}
