@@ -3,7 +3,7 @@
 
 # Application repos
 
-- git: {local-name: applications/ropod_navigation_test, uri: 'https://github.com/ropod-project/ropod_navigation_test.git', version: master}
+- git: {local-name: applications/ropod_navigation_test, uri: 'https://github.com/ropod-project/ropod_navigation_test.git', version: feature/tracking}
 - git: {local-name: applications/miscellaneous, uri: 'https://github.com/ropod-project/miscellaneous.git', version: master}
 - git: {local-name: applications/occupancy_grids, uri: 'git@git.ropod.org:ropod/wm/occupancy_grids.git', version: master}
 
@@ -39,9 +39,6 @@
 - git: {local-name: functionalities/ropod_nav/ropod_navigation, uri: 'git@git.ropod.org:ropod/navigation/ropod_navigation.git', version: develop}
 - git: {local-name: functionalities/ros_structured_nav, uri: 'https://github.com/tue-ropod/ros-structured-nav.git', version: master}
 - git: {local-name: functionalities/ros_experimental_nav/teb_local_planner, uri: 'https://github.com/ropod-project/teb_local_planner.git', version: ropod-master}
-## git-tooling
-- git: {local-name: functionalities/multi-git-status, uri: 'https://github.com/fboender/multi-git-status.git', version: master}
-
 
 # platform repos
 - git: {local-name: platform/setup, uri: 'https://github.com/ropod-project/setup.git', version: master}
@@ -50,3 +47,5 @@
 - git: {local-name: platform/robot_common, uri: 'https://github.com/ropod-project/robot_common.git', version: feature/tracking}
 - git: {local-name: platform/ropod_sim_model, uri: 'https://github.com/ropod-project/ropod_sim_model.git', version: feature/tracking}
 
+## tooling
+- git: {local-name: functionalities/multi-git-status, uri: 'https://github.com/fboender/multi-git-status.git', version: master}
