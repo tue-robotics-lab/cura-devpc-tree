@@ -5,7 +5,7 @@ cd ropod-project-software/catkin_workspace/src
 git clone https://github.com/ropod-project/tree-devpc.git ./
 wstool init
 wstool up
-echo "source ~/ropod-project-software/catkin_workspace/src/platform/setup/setup.bash"  >> ~/.bashrc
-bash ~/ropod-project-software/catkin_workspace/src/platform/setup/setup.bash
+echo "source ~/ropod-project-software/catkin_workspace/src/platform/setup/devpc/setup.bash"  >> ~/.bashrc
+bash ~/ropod-project-software/catkin_workspace/src/platform/setup/devpc/setup.bash
 update-dependencies
 buildit
