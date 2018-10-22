@@ -5,7 +5,7 @@ cd ropod-project-software/catkin_workspace/src
 git clone https://github.com/ropod-project/tree-devpc.git ./
 wstool init
 wstool up
-echo "source ~/ropod-project-software/catkin_workspace/src/platform/setup/setup.bash"  >> ~/.bashrc
+echo "source ~/ropod-project-software/catkin_workspace/src/platform/setup/devpc/setup.bash"  >> ~/.bashrc
 
 git clone git@git.ropod.org:ropod/ropod_common.git;
 sudo mv ropod_common /opt/ 
@@ -18,6 +18,6 @@ cd /opt
 sudo mkdir ropod
 sudo mv ropod_common/ ropod
 
-source ~/ropod-project-software/catkin_workspace/src/platform/setup/setup.bash
+source ~/ropod-project-software/catkin_workspace/src/platform/setup/devpc/setup.bash
 rosdep update;rosdep install --from-path . -i -y;
 cd ~/ropod-project-software/catkin_workspace; catkin_make;
