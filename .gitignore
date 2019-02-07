@@ -3,3 +3,8 @@ CMakeLists.txt
 applications/
 functionalities/
 platform/
+
+.kdev4/
+src.kdev4
+
+*.swp
