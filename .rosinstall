@@ -5,7 +5,8 @@
 
 - git: {local-name: applications/ropod_navigation_test, uri: 'https://github.com/ropod-project/ropod_navigation_test.git', version: master}
 - git: {local-name: applications/miscellaneous, uri: 'https://github.com/ropod-project/miscellaneous.git', version: master}
-- git: {local-name: applications/occupancy_grids, uri: 'git@git.ropod.org:ropod/wm/occupancy_grids.git', version: master}
+- git: {local-name: applications/occupancy_grids, uri: 'git@git.ropod.org:ropod/wm/occupancy_grids.git', version: develop}
+
 
 # Functionalities repos
 
