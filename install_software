@@ -5,6 +5,11 @@ cd ropod-project-software/catkin_workspace/src
 git clone https://github.com/ropod-project/tree-devpc.git ./
 wstool init
 wstool up
+
+cd ~/ropod-project-software/catkin_workspace/src/functionalities;
+wget -4 dlib.net/files/dlib-19.16.tar.bz2
+tar -xf dlib-19.16.tar.bz2 
+
 echo "source ~/ropod-project-software/catkin_workspace/src/platform/setup/devpc/setup.bash"  >> ~/.bashrc
 bash ~/ropod-project-software/catkin_workspace/src/platform/setup/devpc/setup.bash
 update-dependencies
