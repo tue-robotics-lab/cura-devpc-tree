@@ -21,6 +21,8 @@
 - git: {local-name: functionalities/ED/ed_rviz_plugins, uri: 'https://github.com/ropod-project/ed_rviz_plugins.git', version: feature/tracking}
 - git: {local-name: functionalities/ED/ed_sensor_integration, uri: 'https://github.com/ropod-project/ed_sensor_integration.git', version: feature/wireIntegration}
 - git: {local-name: functionalities/ED/ed_tutorials, uri: 'https://github.com/ropod-project/ed_tutorials.git', version: ropod-master}
+- git: {local-name: functionalities/ED/wirED, uri: 'https://github.com/ropod-project/wirED.git', version: master}
+
 ## other tue needed repos
 - git: {local-name: functionalities/cb_planner_msgs_srvs, uri: 'https://github.com/ropod-project/cb_planner_msgs_srvs.git', version: ropod-master}
 - git: {local-name: functionalities/code_profiler, uri: 'https://github.com/ropod-project/code_profiler.git', version: ropod-master}
