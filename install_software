@@ -2,7 +2,7 @@
 cd 
 mkdir -p ropod-project-software/catkin_workspace/src
 cd ropod-project-software/catkin_workspace/src
-git clone --b feature/tracking https://github.com/ropod-project/tree-devpc.git ./
+git clone --branch install_robbert https://github.com/tue-ropod/tree-devpc.git ./
 wstool init
 wstool up
 
