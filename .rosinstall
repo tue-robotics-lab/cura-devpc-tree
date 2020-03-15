@@ -43,7 +43,7 @@
 #- git: {local-name: functionalities/ropod_nav/ropod_navigation, uri: 'git@git.ropod.org:ropod/navigation/ropod_navigation.git', version: develop}
 - git: {local-name: functionalities/ros_structured_nav, uri: 'https://github.com/tue-ropod/ros-structured-nav.git', version: master}
 #- git: {local-name: functionalities/ros_experimental_nav/teb_local_planner, uri: 'https://github.com/tue-ropod/teb_local_planner.git', version: ropod-master}
-- git: {local-name: functionalities/napoleon_navigation, uri: 'https://github.com/tue-ropod/napoleon_navigation', version: master}
+- git: {local-name: functionalities/napoleon_navigation, uri: 'https://github.com/tue-ropod/napoleon_navigation', version: develop}
 ## git-tooling
 - git: {local-name: functionalities/multi-git-status, uri: 'https://github.com/fboender/multi-git-status.git', version: master}
 
