@@ -5,7 +5,7 @@ WORKSPACE_NAME="catkin_workspace"
 mkdir -p ropod-project-software/${WORKSPACE_NAME}/src
 cd ropod-project-software/${WORKSPACE_NAME}/src
 git clone https://github.com/tue-ropod/tree-devpc.git ./
-git checkout feature/develop_cleanup
+git checkout feature/remove_ed_dependency
 sudo apt-get install python-wstool
 
 cd ..
@@ -13,21 +13,6 @@ wstool init
 cd src
 wstool up
 echo "source ~/ropod-project-software/${WORKSPACE_NAME}/src/platform/setup/devpc/setup.bash"  >> ~/.bashrc
-
-#git clone git@github.com:tue-ropod/ropod_common.git;
-#sudo mv ropod_common /opt/
-
-#cd ~
-#wget https://raw.githubusercontent.com/blumenthal/ropod-base-cpp/master/install_deps.sh
-#chmod 755 install_deps.sh
-#sudo ./install_deps.sh --workspace-path=/opt --install-path=/usr/local
-#cd /opt
-#sudo mkdir ropod
-#sudo mv ropod_common/ ropod
-
-#cd ~/ropod-project-software/${WORKSPACE_NAME}/src/functionalities;
-#wget -4 dlib.net/files/dlib-19.16.tar.bz2
-#tar -xf dlib-19.16.tar.bz2
 
 source ~/ropod-project-software/${WORKSPACE_NAME}/src/platform/setup/devpc/setup.bash
 rosdep update;rosdep install --from-path . -i -y;
