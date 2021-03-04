@@ -11,16 +11,18 @@
 # Functionalities repos
 
 ## ED
-- git: {local-name: functionalities/ED/ed, uri: 'https://github.com/tue-ropod/ed.git', version: ropod-master}
-- git: {local-name: functionalities/ED/ed_gui_server, uri: 'https://github.com/tue-ropod/ed_gui_server.git', version: ropod-master}
+- git: {local-name: functionalities/ED/ed, uri: 'https://github.com/tue-ropod/ed.git', version: feature/tracking}
+- git: {local-name: functionalities/ED/ed_gui_server, uri: 'https://github.com/tue-ropod/ed_gui_server.git', version: feature/napolenSimTesting}
 # - git: {local-name: functionalities/ED/ed_localization, uri: 'https://github.com/tue-ropod/ed_localization.git', version: ropod-master}
 # - git: {local-name: functionalities/ED/ed_navigation, uri: 'https://github.com/tue-ropod/ed_navigation.git', version: ropod-master}
-- git: {local-name: functionalities/ED/ed_object_models, uri: 'https://github.com/tue-ropod/ed_object_models.git', version: ropod-master}
+- git: {local-name: functionalities/ED/ed_object_models, uri: 'https://github.com/tue-ropod/ed_object_models.git', version: feature/tracking}
 - git: {local-name: functionalities/ED/ed_perception, uri: 'https://github.com/tue-ropod/ed_perception.git', version: ropod-master}
 # - git: {local-name: functionalities/ED/ed_perception_models, uri: 'https://github.com/tue-ropod/ed_perception_models.git', version: ropod-master}
-- git: {local-name: functionalities/ED/ed_rviz_plugins, uri: 'https://github.com/tue-ropod/ed_rviz_plugins.git', version: ropod-master}
-- git: {local-name: functionalities/ED/ed_sensor_integration, uri: 'https://github.com/tue-ropod/ed_sensor_integration.git', version: ropod-master}
+- git: {local-name: functionalities/ED/ed_rviz_plugins, uri: 'https://github.com/tue-ropod/ed_rviz_plugins.git', version: feature/tracking}
+- git: {local-name: functionalities/ED/ed_sensor_integration, uri: 'https://github.com/tue-ropod/ed_sensor_integration.git', version: feature/wireIntegration}
 # - git: {local-name: functionalities/ED/ed_tutorials, uri: 'https://github.com/tue-ropod/ed_tutorials.git', version: ropod-master}
+- git: {local-name: functionalities/ED/wirED, uri: 'https://github.com/tue-ropod/wirED.git', version: master}
+
 ## other tue needed repos
 - git: {local-name: functionalities/cb_planner_msgs_srvs, uri: 'https://github.com/tue-ropod/cb_planner_msgs_srvs.git', version: ropod-master}
 - git: {local-name: functionalities/code_profiler, uri: 'https://github.com/tue-ropod/code_profiler.git', version: ropod-master}
@@ -30,8 +32,8 @@
 - git: {local-name: functionalities/tue_config, uri: 'https://github.com/tue-ropod/tue_config.git', version: ropod-master}
 - git: {local-name: functionalities/tue_filesystem, uri: 'https://github.com/tue-ropod/tue_filesystem.git', version: ropod-master}
 - git: {local-name: functionalities/tue_serialization, uri: 'https://github.com/tue-ropod/tue_serialization.git', version: ropod-master}
-- git: {local-name: functionalities/problib, uri: 'https://github.com/tue-ropod/problib.git', version: ropod-master}
-- git: {local-name: functionalities/wire, uri: 'https://github.com/tue-ropod/wire.git', version: master}
+- git: {local-name: functionalities/problib, uri: 'https://github.com/tue-ropod/problib.git', version: test/shared_ptr_with_armadillo}
+- git: {local-name: functionalities/wire, uri: 'https://github.com/tue-ropod/wire.git', version: feature/tracking}
 
 ## ROPOD comm repos
 # - git: {local-name: functionalities/ropod_comm/ropod_com_mediator, uri: 'git@git.ropod.org:ropod/communication/ropod_com_mediator.git', version: develop}
@@ -44,7 +46,7 @@
 # - git: {local-name: functionalities/ropod_nav/ropod_navigation, uri: 'git@git.ropod.org:ropod/navigation/ropod_navigation.git', version: develop}
 # - git: {local-name: functionalities/ros_structured_nav, uri: 'https://github.com/tue-ropod/ros-structured-nav.git', version: master}
 # - git: {local-name: functionalities/ros_experimental_nav/teb_local_planner, uri: 'https://github.com/tue-ropod/teb_local_planner.git', version: ropod-master}
-- git: {local-name: functionalities/ros_structured_nav, uri: 'https://github.com/tue-ropod/ros-structured-nav.git', version: master}
+#- git: {local-name: functionalities/ros_structured_nav, uri: 'https://github.com/tue-ropod/ros-structured-nav.git', version: master}
 - git: {local-name: functionalities/napoleon_navigation, uri: 'https://github.com/tue-ropod/napoleon_navigation.git', version: develop}
 
 ## git-tooling
