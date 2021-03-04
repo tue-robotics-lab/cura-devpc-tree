@@ -7,8 +7,8 @@ wstool init
 wstool up
 echo "source ~/ropod-project-software/catkin_workspace/src/platform/setup/devpc/setup.bash"  >> ~/.bashrc
 
-git clone git@git.ropod.org:ropod/ropod_common.git;
-sudo mv ropod_common /opt/ 
+git clone git@github.com:tue-ropod/ropod_common.git;
+sudo mv ropod_common /opt/
 
 cd ~
 wget https://raw.githubusercontent.com/blumenthal/ropod-base-cpp/master/install_deps.sh
@@ -20,7 +20,7 @@ sudo mv ropod_common/ ropod
 
 cd ~/ropod-project-software/catkin_workspace/src/functionalities;
 wget -4 dlib.net/files/dlib-19.16.tar.bz2
-tar -xf dlib-19.16.tar.bz2 
+tar -xf dlib-19.16.tar.bz2
 
 source ~/ropod-project-software/catkin_workspace/src/platform/setup/devpc/setup.bash
 rosdep update;rosdep install --from-path . -i -y;
