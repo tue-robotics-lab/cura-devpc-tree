@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ~
-WORKSPACE_NAME="catkin_workspace_refactor2"
+WORKSPACE_NAME="catkin_workspace"
 
 mkdir -p ropod-project-software/${WORKSPACE_NAME}/src
 cd ropod-project-software/${WORKSPACE_NAME}/src
