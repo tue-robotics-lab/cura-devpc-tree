@@ -33,6 +33,7 @@
 - git: {local-name: functionalities/tue_filesystem, uri: 'https://github.com/tue-ropod/tue_filesystem.git', version: ropod-master}
 - git: {local-name: functionalities/tue_serialization, uri: 'https://github.com/tue-ropod/tue_serialization.git', version: ropod-master}
 - git: {local-name: functionalities/problib, uri: 'https://github.com/tue-ropod/problib.git', version: test/shared_ptr_with_armadillo}
+- git: {local-name: functionalities/armadillo_matrix, uri: 'https://github.com/tue-ropod/armadillo_matrix.git', version: master}
 - git: {local-name: functionalities/wire, uri: 'https://github.com/tue-ropod/wire.git', version: feature/tracking}
 
 ## ROPOD comm repos
