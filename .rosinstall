@@ -5,7 +5,7 @@
 
 - git: {local-name: applications/ropod_navigation_test, uri: 'https://github.com/tue-ropod/ropod_navigation_test.git', version: master}
 - git: {local-name: applications/miscellaneous, uri: 'https://github.com/tue-ropod/miscellaneous.git', version: master}
-# - git: {local-name: applications/occupancy_grids, uri: 'git@git.ropod.org:ropod/wm/occupancy_grids.git', version: develop}
+- git: {local-name: applications/maps, uri: 'https://github.com/tue-ropod/ropod_maps.git', version: main}
 
 
 # Functionalities repos
