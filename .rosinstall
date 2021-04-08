@@ -34,3 +34,4 @@
 - git: {local-name: platform/ropod_tue_2_bringup, uri: 'https://github.com/tue-ropod/ropod_tue_2_bringup.git', version: fix/simulation}
 - git: {local-name: platform/robot_common, uri: 'https://github.com/tue-ropod/robot_common.git', version: feature/remove_unused_dependencies}
 - git: {local-name: platform/ropod_sim_model, uri: 'https://github.com/tue-ropod/ropod_sim_model.git', version: feature/remove_unused_dependencies}
+- git: {local-name: platform/ropod_teleop, uri: 'https://github.com/tue-ropod/ropod_teleop.git', version: master}
