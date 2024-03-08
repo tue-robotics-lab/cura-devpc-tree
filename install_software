@@ -5,8 +5,8 @@ WORKSPACE_NAME="catkin_workspace"
 mkdir -p ropod-project-software/${WORKSPACE_NAME}/src
 cd ropod-project-software/${WORKSPACE_NAME}/src
 git clone https://github.com/tue-ropod/tree-devpc.git ./
-git checkout feature/remove_ed_dependency
-sudo apt-get install python-wstool
+git checkout fix/basic-installation
+sudo apt-get install python3-wstool ros-noetic-sbpl ros-noetic-joy ros-noetic-costmap-2d
 
 cd ..
 wstool init
