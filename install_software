@@ -6,7 +6,7 @@ mkdir -p ropod-project-software/${WORKSPACE_NAME}/src
 cd ropod-project-software/${WORKSPACE_NAME}/src
 git clone https://github.com/tue-ropod/tree-devpc.git ./
 git checkout fix/basic-installation
-sudo apt-get install python3-wstool ros-noetic-sbpl ros-noetic-joy ros-noetic-costmap-2d
+sudo apt-get install python3-wstool ros-noetic-sbpl ros-noetic-joy ros-noetic-costmap-2d ros-noetic-nav-core
 
 cd ..
 wstool init
